@@ -31,6 +31,7 @@
     animation: animation1 2s infinite;
     text-shadow: 2px 2px 4px black;
     letter-spacing: 6px;
+    text-align: center;
 }
 
 @keyframes animation1 {
@@ -166,6 +167,7 @@
     height: 100vh;
     animation: animation3 2s infinite;
     box-shadow: 2px 2px 4px black;
+    text-align: center;
 }
 
 @keyframes animation3 {
@@ -234,6 +236,7 @@
     align-items: center;
     height: 100vh;
     animation: animation4 2s infinite;
+    text-align: center;
 }
 
 @keyframes animation4 {

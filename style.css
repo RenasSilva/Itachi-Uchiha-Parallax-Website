@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.parallax1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://uiuiui.in/uploads/posts/2022-11/1650644299-7ed1d5cbe69b13f07fa23cb5dcef9b25.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
+}
+
+.parallax1 h2 {
+    font-size: 60px;
+    color: #f43a17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: animation1 2s infinite;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 6px;
+}
+
+@keyframes animation1 {
+    0% {
+        color: #f43a17;
+    }
+
+    50% {
+        color: #d1252d;
+    }
+
+    100% {
+        color: #f43a17;
+    }
+}
+
+.section1 {
+    padding-top: 60px;
+    background-color:#f43a17;
+    animation: animation-section1 2s infinite;
+}
+
+@keyframes animation-section1 {
+    0% {
+        background-color: #f43a17;
+    }
+
+    50% {
+        background-color: #d1252d;
+    }
+
+    100% {
+        background-color: #f43a17;
+    }
+}
+
+.section1 h2 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.section1 p {
+    margin-top: 20px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.448);
+}
+
+.parallax2 {
+    width: 100%;
+    height: 40vh;
+    background-image: url("https://lh3.googleusercontent.com/V8vdLyruROpGL211Ucrzly_9ZagiG2lttAikhgnhPhy9cTs9THvPokb8O-Dv3tE4TUnDryphrnwA1ZwI_lB0MzYYSA=w640-h400-e365-rj-sc0x00ffffff");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax2 h2 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    color: #132c4b;
+    text-shadow: 2px 2px 4px black;
+    animation: animation2 2s infinite;
+}
+
+@keyframes animation2 {
+    0% {
+        color: #132c4b;
+    }
+
+    50% {
+        color: #637d9d;
+    }
+
+    100% {
+        color: #132c4b;
+    }
+}
+
+.section2 {
+    padding-top: 60px;
+    background-color: #132c4b;
+    animation: animation-section2 2s infinite;
+}
+
+@keyframes animation-section2 {
+    0% {
+        background-color: #132c4b;
+    }
+
+    50% {
+        background-color: #637d9d;
+    }
+
+    100% {
+        background-color: #132c4b;
+    }
+}
+
+.section2 h2 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.section2 p {
+    margin-top: 20px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.448);
+}
+
+.parallax3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://rukminim2.flixcart.com/image/850/1000/l09w8sw0/poster/g/7/q/medium-uchiha-itachi-cartoon-wallpaper-poster-on-quality-paper-original-imagc3h2pphmghq8.jpeg?q=90");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax3 h2 {
+    font-size: 60px;
+    color: #2e343d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: animation3 2s infinite;
+    box-shadow: 2px 2px 4px black;
+}
+
+@keyframes animation3 {
+    0% {
+        color: #2e343d;
+    }
+
+    50% {
+        color: #0e0e0e;
+    }
+
+    100% {
+        color: #2e343d;
+    }
+}
+
+.section3 {
+    padding-top: 60px;
+    background-color: #2e343d;
+    animation: animation-section3 2s infinite;
+}
+
+@keyframes animation-section3 {
+    0% {
+        background-color: #2e343d;
+    }
+
+    50% {
+        background-color: #0e0e0e;
+    }
+
+    100% {
+        background-color: #2e343d;
+    }
+}
+
+.section3 h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.section3 p {
+    margin-top: 20px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.448);
+    color: white;
+}
+
+.end {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://media.distractify.com/brand-img/U5IDmnlMm/0x0/itachi-vs-sasuke-conclusion-1649453402381.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.end h2 {
+    font-size: 60px;
+    color: #b67e7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: animation4 2s infinite;
+}
+
+@keyframes animation4 {
+    0% {
+        color: #b67e7b;
+    }
+
+    50% {
+        color: #632a29;
+    }
+
+    100% {
+        color: #b67e7b;
+    }
+}
+
+p {
+    padding-bottom: 60px;
+}
